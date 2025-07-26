@@ -1,0 +1,422 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    gap: 80px;
+    padding-left: 30%;
+    background-color: #f75420;
+    height: 35px; 
+}
+nav h5{
+    font-size: 20px;
+    color: black;
+}
+nav button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+nav button:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+.first-section{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+.first-section h2{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.first-section p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.first-section button{
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: 3px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first-section button:hover{
+    transform: scale(0.8);
+    background-color: #f75420;
+}
+.expert-img img{
+    width: 100%;
+    padding-right: 30px;
+}
+.mentors{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+.second-section{
+    padding-bottom: 100px;
+}
+.mentors-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-left: 20px;
+}
+.mentors1{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors1 img{
+    padding-bottom: 5px;
+}
+.mentors1 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors1 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors1 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors2{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors2 img{
+    padding-bottom: 5px;
+}
+.mentors2 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors2 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors2 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors3{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors3 img{
+    padding-bottom: 5px;
+}
+.mentors3 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors3 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors3 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors4{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors4 img{
+    padding-bottom: 5px;
+}
+.mentors4 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors4 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors4 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors5{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors5 img{
+    padding-bottom: 5px;
+}
+.mentors5 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors5 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors5 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors6{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors6 img{
+    padding-bottom: 5px;
+}
+.mentors6 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors6 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors6 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors7{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors7 img{
+    padding-bottom: 5px;
+}
+.mentors7 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors7 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors7 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.mentors8{
+    border: 2px solid rgb(196, 181, 181);
+    max-width: 255px;
+    height: 340px;
+    border-radius: 15px;
+}
+.mentors8 img{
+    padding-bottom: 5px;
+}
+.mentors8 h2{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+}
+.mentors8 p{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.mentors8 button{
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.footer p{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.footer :nth-child(2){
+    display: block;
+    color: white;
+    padding-bottom: 15px;
+}
+.footer :nth-child(3){
+    display: block;
+    color: white;
+    padding-bottom: 15px;
+}
+.footer :nth-child(4){
+    display: block;
+    color: white;
+}
+
+
+
+
+@media(max-width:1125px){
+    .mentors-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:1060px){
+    .first-section p{
+        padding-bottom: 10px;
+    }
+    nav{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:1009px){
+    .first-section h2{
+        line-height: 45px;
+    }
+    .first-section p{
+        padding-bottom: 5px;
+    }
+    nav{
+        padding-left: 15%;
+    }
+}
+@media(max-width:920px){
+    .mentors-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 90px;
+    }
+}
+@media(max-width:800px){
+    .first-section{
+        display: block;
+    }
+    .first-section h2{
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    .first-section p{
+    font-size: 15px;
+    padding-bottom: 30px;
+   }
+   .expert-img img{
+    padding-top: 30px;
+   }
+}
+@media(max-width:700px){
+    nav{
+        padding-left: 5%;
+    }
+}
+@media(max-width:630px){
+    .mentors-container{
+        padding-left: 40px;
+    }
+    nav{
+        display: flex;
+        gap: 60px;
+    }
+}
+@media(max-width:590px){
+    .mentors-container{
+        padding-left: 20px;
+    }
+    nav{
+        display: flex;
+        gap: 40px;
+    }
+    .footer{
+        padding-left: 30px;
+    }
+}
+@media(max-width:560px){
+    .mentors-container{
+        padding-left: 5px;
+    }
+    .footer{
+        padding-left: 15px;
+    }
+}
